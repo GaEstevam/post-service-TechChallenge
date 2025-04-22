@@ -30,11 +30,11 @@ test:
 build:
   stage: build
   script:
-    - echo "Build do post-service concluído."
+    - echo "Build do auth-service concluído."
 
 deploy:
   stage: deploy
   script:
-    - echo "Emulando deploy do post-service para produção"
+    - echo "Emulando deploy do auth-service para produção"
     - mkdir -p ./dist
     - cp -r * ./dist/
